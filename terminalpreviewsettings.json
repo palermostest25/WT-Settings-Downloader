@@ -238,6 +238,57 @@
                 "padding": "8, 8, 8, 8",
                 "snapOnInput": true,
                 "useAcrylic": false
+            },
+            {
+                "altGrAliasing": true,
+                "antialiasingMode": "grayscale",
+                "colorScheme": "Campbell",
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile",
+                "cursorShape": "bar",
+                "elevate": true,
+                "font": 
+                {
+                    "face": "CascadiaCode Nerd Font",
+                    "size": 12.0
+                },
+                "guid": "{b12f8cc6-1fb7-49e0-bf5c-b998fe1e3e25}",
+                "hidden": false,
+                "historySize": 9001,
+                "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
+                "name": "Windows PowerShell (No Profile)",
+                "padding": "8, 8, 8, 8",
+                "snapOnInput": true,
+                "useAcrylic": false
+            },
+            {
+                "altGrAliasing": true,
+                "antialiasingMode": "grayscale",
+                "colorScheme": "Campbell",
+                "commandline": "%SystemRoot%\\syswow64\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile",
+                "cursorShape": "bar",
+                "elevate": true,
+                "font": 
+                {
+                    "face": "CascadiaCode Nerd Font",
+                    "size": 12.0
+                },
+                "guid": "{46c0b55d-c927-48b3-9406-81c714246f51}",
+                "hidden": false,
+                "historySize": 9001,
+                "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
+                "name": "Windows PowerShell (x86) (No Profile)",
+                "padding": "8, 8, 8, 8",
+                "snapOnInput": true,
+                "useAcrylic": false
+            },
+            {
+                "colorScheme": "Campbell",
+                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" -noprofile",
+                "elevate": true,
+                "guid": "{5d74bc36-085c-4e48-bb9d-e634d6f7d9dc}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/pwsh.png",
+                "name": "PowerShell (No Profile)"
             }
         ]
     },

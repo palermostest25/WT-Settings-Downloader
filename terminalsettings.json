@@ -4,25 +4,6 @@
     "actions": 
     [
         {
-            "command": 
-            {
-                "action": "newWindow"
-            },
-            "keys": "ctrl+n"
-        },
-        {
-            "command": "find",
-            "keys": "ctrl+f"
-        },
-        {
-            "command": "duplicateTab",
-            "keys": "ctrl+d"
-        },
-        {
-            "command": "markMode",
-            "keys": "ctrl+m"
-        },
-        {
             "command": "paste",
             "keys": "ctrl+v"
         },
@@ -33,6 +14,25 @@
                 "singleLine": false
             },
             "keys": "ctrl+c"
+        },
+        {
+            "command": 
+            {
+                "action": "newWindow"
+            },
+            "keys": "ctrl+n"
+        },
+        {
+            "command": "markMode",
+            "keys": "ctrl+m"
+        },
+        {
+            "command": "duplicateTab",
+            "keys": "ctrl+d"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+f"
         },
         {
             "command": 
@@ -53,10 +53,6 @@
                 "action": "newTab"
             },
             "keys": "ctrl+t"
-        },
-        {
-            "command": "closePane",
-            "keys": "ctrl+w"
         },
         {
             "command": "selectAll",
@@ -85,6 +81,10 @@
         {
             "command": "unbound",
             "keys": "ctrl+shift+a"
+        },
+        {
+            "command": "closePane",
+            "keys": "ctrl+w"
         }
     ],
     "confirmCloseAllTabs": false,
@@ -319,6 +319,62 @@
                 "hidden": false,
                 "name": "Developer PowerShell for VS 2022",
                 "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "altGrAliasing": true,
+                "antialiasingMode": "grayscale",
+                "colorScheme": "Campbell",
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile",
+                "cursorShape": "bar",
+                "experimental.retroTerminalEffect": false,
+                "font": 
+                {
+                    "face": "CascadiaCode Nerd Font",
+                    "size": 12
+                },
+                "guid": "{fe58594b-1a88-4337-b0eb-91169bae4514}",
+                "hidden": false,
+                "historySize": 9001,
+                "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
+                "name": "Windows PowerShell (No Profile)",
+                "padding": "8, 8, 8, 8",
+                "snapOnInput": true,
+                "startingDirectory": null
+            },
+            {
+                "altGrAliasing": true,
+                "antialiasingMode": "grayscale",
+                "closeOnExit": "always",
+                "colorScheme": "Campbell",
+                "commandline": "%SystemRoot%\\syswow64\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile",
+                "cursorShape": "bar",
+                "experimental.retroTerminalEffect": false,
+                "font": 
+                {
+                    "face": "CascadiaCode Nerd Font",
+                    "size": 12
+                },
+                "guid": "{3108a4fc-4c7d-42ac-883b-84537ecb4242}",
+                "hidden": false,
+                "historySize": 9001,
+                "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
+                "name": "Windows PowerShell (x86) (No Profile)",
+                "padding": "8, 8, 8, 8",
+                "snapOnInput": true,
+                "startingDirectory": null,
+                "useAcrylic": false
+            },
+            {
+                "colorScheme": "Campbell",
+                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" -noprofile",
+                "font": 
+                {
+                    "face": "CascadiaCode Nerd Font"
+                },
+                "guid": "{8c742cde-e2b8-4706-9120-55001e7f9f45}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/pwsh.png",
+                "name": "PowerShell (No Profile)"
             }
         ]
     },
